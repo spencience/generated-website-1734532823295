@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Leaderboard - DestructoBats Gaming Hub</title>
+    <meta name="description" content="View the top players and their achievements in DestructoBats gaming. Real-time rankings, achievements, and competitive stats for all our bat-themed destruction games.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900">
+    <header class="bg-purple-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <nav class="flex flex-wrap items-center justify-between">
+                <a href="/generated-website-1734532823295/home.html" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                        <div class="w-8 h-8 bg-purple-600 transform rotate-45"></div>
+                    </div>
+                    <span class="text-2xl font-bold">DestructoBats</span>
+                </a>
+                
+                <button class="lg:hidden" aria-label="Toggle Menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+
+                <div class="hidden lg:flex space-x-8">
+                    <a href="/generated-website-1734532823295/games.html" class="hover:text-purple-200">Games</a>
+                    <a href="/generated-website-1734532823295/leaderboard.html" class="hover:text-purple-200 font-bold">Leaderboard</a>
+                    <a href="/generated-website-1734532823295/community.html" class="hover:text-purple-200">Community</a>
+                    <a href="/generated-website-1734532823295/shop.html" class="hover:text-purple-200">Shop</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+            <div class="space-y-6">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Global Leaderboard</h1>
+                    <div class="flex space-x-4">
+                        <select class="rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500">
+                            <option>All Games</option>
+                            <option>Bat Blast</option>
+                            <option>Echo Smash</option>
+                            <option>Wing Commander</option>
+                        </select>
+                        <select class="rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500">
+                            <option>All Time</option>
+                            <option>This Month</option>
+                            <option>This Week</option>
+                            <option>Today</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                        <thead class="bg-gray-50 dark:bg-gray-700">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Rank</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Player</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Score</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Game</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+                            <tr class="bg-yellow-50 dark:bg-yellow-900">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-white">1</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">BatMaster_Supreme</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">2,345,678</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">Bat Blast</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">2023-10-15</td>
+                            </tr>
+                            <tr class="bg-gray-50 dark:bg-gray-700">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-white">2</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">EchoLord99</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">2,198,453</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">Echo Smash</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">2023-10-14</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-white">3</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">WingDestroyer</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">2,087,965</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">Wing Commander</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">2023-10-13</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="flex justify-between items-center mt-4">
+                    <div class="text-sm text-gray-600 dark:text-gray-400">
+                        Showing 1-3 of 1,000 entries
+                    </div>
+                    <div class="flex space-x-2">
+                        <button class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700">Previous</button>
+                        <button class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-auto">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">About Us</h3>
+                    <p class="text-gray-400">Bringing chaos and fun together since 2023</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734532823295/privacy.html" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="/generated-website-1734532823295/terms.html" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                        <li><a href="/generated-website-1734532823295/contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734532823295/discord.html" class="text-gray-400 hover:text-white">Discord</a>
+                        <a href="/generated-website-1734532823295/twitter.html" class="text-gray-400 hover:text-white">Twitter</a>
+                        <a href="/generated-website-1734532823295/reddit.html" class="text-gray-400 hover:text-white">Reddit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 DestructoBats Gaming. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
